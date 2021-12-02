@@ -1,0 +1,188 @@
+.second {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  }
+
+
+.block {
+  width: 300px;
+  height: 300px;
+  background: red;
+  margin: 110px;
+  animation: name 2s ease infinite;
+  animation-duration: 5s;
+  animation-play-state: inherit;
+  animation-play-state: initial;
+  animation-play-state: unset;
+  background: red;
+  border-radius: 10px;
+
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  border: 3px solid #F80BFD;
+
+  border-radius: 25px;
+  animation: border 3s ease infinite
+
+  padding: 5px; 
+  opacity: 0.7; 
+  filter: alpha(Opacity=70);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  text-decoration: inherit;
+}
+
+.block:hover {
+  background: blue;
+}
+
+
+
+@keyframes name {
+    0% {
+      background: #1ed64f;
+      color: #1d788f;
+    }
+    17% {
+      background: #11ad99;
+    }
+    50% {
+      background: #700e75;
+      color: #8c1515;
+    }
+    100%{
+      background: #bccf17;
+      color: #191f8c;
+    }
+}
+
+.block:hover
+{
+    animation-play-state: paused
+}
+
+h1 {
+color: #b5c1c4;
+font-family: sans-serif;
+}
+
+
+p {
+  color: red;
+  font-family: cursive;
+}
+
+hr {
+  width: 10px;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; 
+  text-decoration: inherit; 
+}
+
+header {
+display: flex;
+font-size: 25px;
+align-items: center;
+background: none;
+justify-content: center;
+width: 100%;
+margin-bottom: -79px;
+height: 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>a{
+  margin: 25px;
+}
+
+.mainscreen {
+  background-image: url(https://asiamountains.net/upload/slide/slide-1960x857-07.jpg);
+  height: 100vh;
+  width: 100%;
+
+}
+
+.secondary {
+
+}
+
+main {
+
+}
+
+nav>.margin-left1 {
+  text-decoration: overline;
+}
+
+nav>.margin-left4 {
+  text-decoration: underline;
+}
+
+header>img {
+  height: 100%;
+}
+
+footer {
+display: flex;
+font-size: 25px;
+align-items: center;
+background: none;
+justify-content: center;
+width: 100%;
+background-image: url(https://blog.tutoronline.ru/media/621769/best-fishing-spots-emt.jpg);
+}
+
+footer>div {
+  margin: 25px;
+}
+
+.First {
+  text-decoration: overline;
+}
+
+.Second {
+  text-decoration: underline;
+}
+
+.Third {
+  text-decoration: overline;
+}
+
+.Fourth {
+  text-decoration: underline;
+}
+
+div>a{
+  margin: 25px;
+}
+
+.abv {
+  position: relative;
+  top: 300px;
+  font-size: 30px;
+}
